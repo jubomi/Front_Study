@@ -29,32 +29,23 @@ header >span{
     line-height: 84px;
     color: #2C5695;
 }
-/*
-section >span >img{
-    width: 35px;
-    height: 30px;
-}
-*/
+
 section{
     display: flex;
     flex-direction: column;
 }
 
-.button{
-    background-image: url(./imgs/emptyCheckBox.png);
-    background-size: cover;
-    width: 55px;
-    height: 50px;
-    border: none;
-}
-
-.button:active{
-    transform: scale(0.98);
-    background-image: url(./imgs/fillCheckBox.png);
-}
-
 section{
     margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 section >span{
@@ -62,5 +53,3 @@ section >span{
     flex-direction: row;
     gap: 20px;
 }
-
-section >sp
